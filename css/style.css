@@ -28,9 +28,6 @@ html {
 }
 
 #naslovna {
-  /* position: absolute;
-  top: 0;
-  left: 0; */
   width: 100%;
   height: 40vh;
   background-image: url("../Slike/naslovna.jpg");
@@ -43,7 +40,6 @@ html {
   padding: 10px 20px;
   position: fixed;
   width: 100%;
-  /* margin-top: 6vh; */
   top: 0;
   z-index: 100;
   display: flex;
@@ -74,6 +70,7 @@ html {
   font-size: 1em;
   transition: color 0.3s;
 }
+
 #navlinks a:hover {
   color: #bc9ca9;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
@@ -136,8 +133,6 @@ html {
 #content-1 {
   width: 100%;
   padding: 100px 50px;
-  /* height: 650px; */
-  /* text-align: left; */
   background-image: url("../Slike/bg.jpg");
   background-size: cover;
   background-position: center;
@@ -148,7 +143,6 @@ html {
 }
 
 #heading {
-  /* padding-top: 35vh; */
   width: 40%;
   float: right;
   text-align: center;
@@ -201,15 +195,6 @@ html {
   margin-top: 150px;
 }
 
-/* @media screen and (max-width: 1030px) {
-  #overlay {
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-  }
-} */
-
 #overlay p {
   font-family: "Lora", serif;
   color: white;
@@ -235,8 +220,8 @@ html {
 
 #about {
   position: relative;
-  display: block; /* Changed from inline-block to block */
-  width: 100%; /* Ensure full width */
+  display: block;
+  width: 100%;
   text-align: center;
   background-image: url("../Slike/slika1.webp");
   background-size: cover;
@@ -248,11 +233,6 @@ html {
   justify-content: center;
   align-items: center;
 }
-
-/* #about img {
-  width: 100%;
-  height: auto;
-} */
 
 #information {
   width: 50%;
@@ -316,11 +296,11 @@ h1 {
 
 .image-description img {
   margin: 10px;
-  width: 100%; /* Adjusted to be responsive */
-  height: auto; /* Keeps the aspect ratio of the image */
+  width: 100%;
+  height: auto;
   border-radius: 50%;
   border: 4px solid #bc9ca9;
-  max-width: 300px; /* Maximum width of the image */
+  max-width: 300px;
 }
 
 .image-description p {
@@ -339,7 +319,6 @@ h1 {
   justify-content: center;
   gap: 6%;
   margin: 0 auto;
-  /* background: red; */
 }
 
 .aranzmani-item {
@@ -598,9 +577,8 @@ h1 {
   color: #68515a;
 }
 
-/* Base styles for larger screens (default) */
 .contact-heading {
-  font-size: 36px; /* Existing font size */
+  font-size: 36px;
   margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: bold;
@@ -733,21 +711,20 @@ input[type="submit"]:hover {
   top: 10px;
   left: 10px;
   padding: 10px 20px;
-  background-color: #bc9ca9; /* Change the color as needed */
+  background-color: #bc9ca9;
   color: white;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  z-index: 1000; /* Ensure it's above other elements */
+  z-index: 1000;
 }
 
 .back-button-container {
-  position: relative; /* or 'absolute' if needed */
-  /* Other styling as required */
+  position: relative;
 }
 
 .back-button:hover {
-  background-color: #9a7b8e; /* Darker shade for hover effect */
+  background-color: #9a7b8e;
 }
 
 footer {
@@ -780,16 +757,12 @@ footer {
 
 @media (max-width: 768px) {
   .contact-heading {
-    font-size: 24px; /* Adjusted font size for smaller screens */
+    font-size: 24px;
   }
 
   .image-description p {
     width: unset;
   }
-
-  /* #navbar {
-    width: 95%;
-  } */
 
   #navlinks {
     display: none;
@@ -855,9 +828,6 @@ footer {
     width: 60%;
     height: 50%;
     border-radius: 20%;
-    /* top:50%;
-        left:50%;
-        transform: translate(-50%,-50%); */
   }
 
   #overlay p {
@@ -879,12 +849,7 @@ footer {
   }
 
   #information {
-    /* position: absolute; */
     width: 80%;
-    /* height: 100%; */
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
     border-radius: 5%;
     margin: 0;
     padding: 10px;
