@@ -49,4 +49,4 @@ Da biste pokrenuli projekat, otvorite datoteku indek.html u bilo kom modernom pr
 ## 🌐 Deplojovana verzija 
 
 - [Cvecara "Bonsai"](https://cvecara-bonsai.netlify.app/)
-- [![Netlify Status](https://api.netlify.com/api/v1/badges/f302b399-42a4-4d89-8f1d-62e2e90d3a47/deploy-status)](https://app.netlify.com/sites/cvecara-bonsai/deploys)
+- [![Netlify Status](https://api.netlify.com/api/v1/badges/94372219-bd71-4892-9c38-393e3e61ea77/deploy-status)](https://app.netlify.com/sites/cvecara-bonsai/deploys)
