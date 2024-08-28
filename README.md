@@ -44,7 +44,7 @@ Stranica sadrži interaktivni kontakt obrazac koji omogućava korisnicima da pos
 
 ## ⓘ Koriscenje 
 
-Da biste pokrenuli projekat, otvorite datoteku indek.html u bilo kom pretraživaču. 
+Da biste pokrenuli projekat, otvorite datoteku index.html u bilo kom internet pretraživaču. 
 
 ## 🌐 Postavljena verzija 
 
