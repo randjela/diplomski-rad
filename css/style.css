@@ -235,6 +235,7 @@ html {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  scroll-margin-top:90px;
 }
 
 #information {
@@ -443,12 +444,13 @@ h1 {
 
 .aranzmani {
   width: 100%;
-  margin-top: 10%;
+  /* margin-top: 10%; */
   background-image: url("../Slike/bg1.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
-  padding: 50px 0;
+  padding: 80px 0;
+  /* scroll-margin-top: 100px; */
 }
 
 .aranzmani p {
@@ -571,24 +573,23 @@ h1 {
   color: #f00;
 }
 
-#kontakt {
+.kontakt {
   max-width: 800px;
   margin: 100px auto;
-  padding: 20px;
+  padding: 80px;
   background-color: #fff;
   border-radius: 5px;
   color: #68515a;
 }
 
-.contact-heading {
+.kontakt h2{
   font-size: 36px;
   margin-bottom: 20px;
   text-transform: uppercase;
   font-weight: bold;
   color: #23010c;
 }
-
-.contact-heading .us {
+.kontakt h2 span{
   color: #68515a;
   font-style: italic;
 }
@@ -912,10 +913,14 @@ footer {
     border-radius: 20%;
   }
 
-  #kontakt {
+  .kontakt {
     max-width: 100%;
-    margin: 50px auto;
+    /* margin: 50px auto; */
+    scroll-margin-top: 60px;
     padding: 10px;
+  }
+  .kontakt h2{
+    font-size: 30px; 
   }
 
   form {
