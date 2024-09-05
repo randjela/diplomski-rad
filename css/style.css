@@ -93,6 +93,9 @@ html {
   order: 3;
 }
 
+.hide {
+  display: none;
+}
 #mobile-menu {
   display: none;
   background-color: #45343b;

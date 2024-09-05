@@ -51,7 +51,12 @@ mobileMenuItems.forEach((menuItem) => {
   });
 });
 
-
+window.onscroll = function() {
+    const mobileMenu = document.getElementById('mobile-menu');
+    if (window.scrollY > 50) {
+      mobileMenu.classList.remove('active');
+    }
+  };
 
 window.addEventListener('scroll', () => {
     const orderForm = document.getElementById('order-form');
