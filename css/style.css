@@ -229,7 +229,7 @@ html {
   background-image: url("../Slike/slika1.webp");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-attachment: fixed;
   height: 100vh;
   display: flex;
   flex-direction: column;
