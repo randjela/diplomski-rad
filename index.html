@@ -229,6 +229,27 @@
       </div>
     </section>
     <script src="script.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const descriptions = document.querySelectorAll(".image-description");
+    
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("show");
+            } else {
+              entry.target.classList.remove("show"); 
+            }
+          });
+        }, {
+          threshold: 0.2 
+        });
+    
+        descriptions.forEach((description) => {
+          observer.observe(description);
+        });
+      });
+    </script>
 
     <footer>
       <p>&copy; 2024 Cvećara Bonsai</p>
