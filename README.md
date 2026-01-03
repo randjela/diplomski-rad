@@ -9,8 +9,8 @@ Projekat je organizovan hijerarhijom fascikli, koja omogućava lako snalaženje 
 📦Cvecara 
 ┣ 📂css 
 ┃ ┗ 📜styles.css 
-┣ 📂slike 
-┣ 📂stranice 
+┣ 📂images
+┣ 📂pages 
 ┃ ┗ 📜porudzbina.html 
 ┣ 📜index.html 
 ┗ 📜script.js

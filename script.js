@@ -75,7 +75,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const button = document.getElementById("myButton");
 
     button.addEventListener("click", function () {
-        const url = "Stranice/porudzbina.html";
+        const url = "pages/porudzbina.html";
 
         window.location.href = url;
     });

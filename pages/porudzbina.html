@@ -4,17 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../css/porudzbina.css" />
-    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/back-button.css">
     <title>Porudžbina</title>
   </head>
   <body>
     <div class="page-container">
-      <button id="backButton" onclick="history.back()" class="back-button">
-        Nazad
+      <button id="back-button" onclick="history.back()">
+          <span id="button-text">Nazad</span>
+          <span id="button-icon">&lt;</span>
       </button>
       <h1>Porudžbina</h1>
-      <form onsubmit="redirectToThankYouPage()">
-        <!-- form action="mailto:r.andjela.design@gmail.com" method="post" -->
+      <form onsubmit="return validateForm()">
         <div class="container">
           <table>
             <thead>
@@ -30,7 +30,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/buketi/1.jpg"
+                    src="../images/buketi/1.jpg"
                     alt="Buket 1"
                   />
                 </td>
@@ -44,7 +44,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/buketi/2.jpg"
+                    src="../images/buketi/2.jpg"
                     alt="Buket 2"
                   />
                 </td>
@@ -58,7 +58,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/buketi/3.jpg"
+                    src="../images/buketi/3.jpg"
                     alt="Buket 3"
                   />
                 </td>
@@ -72,7 +72,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/buketi/4.jpg"
+                    src="../images/buketi/4.jpg"
                     alt="Buket 4"
                   />
                 </td>
@@ -86,7 +86,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/buketi/5.jpg"
+                    src="../images/buketi/5.jpg"
                     alt="Buket 5"
                   />
                 </td>
@@ -100,7 +100,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/buketi/6.jpg"
+                    src="../images/buketi/6.jpg"
                     alt="Buket 6"
                   />
                 </td>
@@ -114,7 +114,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/buketi/7.jpg"
+                    src="../images/buketi/7.jpg"
                     alt="Buket 7"
                   />
                 </td>
@@ -128,7 +128,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/buketi/8.jpg"
+                    src="../images/buketi/8.jpg"
                     alt="Buket 8"
                   />
                 </td>
@@ -142,7 +142,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/buketi/9.jpg"
+                    src="../images/buketi/9.jpg"
                     alt="Buket 9"
                   />
                 </td>
@@ -156,7 +156,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/buketi/10.jpg"
+                    src="../images/buketi/10.jpg"
                     alt="Buket 10"
                   />
                 </td>
@@ -170,7 +170,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod1.jpg"
+                    src="../images/prilike/proizvod1.jpg"
                     alt="Aranžman 1"
                   />
                 </td>
@@ -184,7 +184,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod2.jpg"
+                    src="../images/prilike/proizvod2.jpg"
                     alt="Aranžman 2"
                   />
                 </td>
@@ -198,7 +198,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod3.jpg"
+                    src="../images/prilike/proizvod3.jpg"
                     alt="Aranžman 3"
                   />
                 </td>
@@ -212,7 +212,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod4.jpg"
+                    src="../images/prilike/proizvod4.jpg"
                     alt="Aranžman 4"
                   />
                 </td>
@@ -226,7 +226,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod5.jpg"
+                    src="../images/prilike/proizvod5.jpg"
                     alt="Aranžman 5"
                   />
                 </td>
@@ -240,7 +240,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod6.jpg"
+                    src="../images/prilike/proizvod6.jpg"
                     alt="Aranžman 6"
                   />
                 </td>
@@ -254,7 +254,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod7.jpg"
+                    src="../images/prilike/proizvod7.jpg"
                     alt="Aranžman 7"
                   />
                 </td>
@@ -268,7 +268,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod8.jpg"
+                    src="../images/prilike/proizvod8.jpg"
                     alt="Aranžman 8"
                   />
                 </td>
@@ -282,7 +282,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod9.jpg"
+                    src="../images/prilike/proizvod9.jpg"
                     alt="Aranžman 9"
                   />
                 </td>
@@ -296,7 +296,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod10.jpg"
+                    src="../images/prilike/proizvod10.jpg"
                     alt="Aranžman 10"
                   />
                 </td>
@@ -310,7 +310,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod11.jpg"
+                    src="../images/prilike/proizvod11.jpg"
                     alt="Aranžman 11"
                   />
                 </td>
@@ -324,7 +324,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod12.jpg"
+                    src="../images/prilike/proizvod12.jpg"
                     alt="Aranžman 12"
                   />
                 </td>
@@ -338,7 +338,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod13.jpg"
+                    src="../images/prilike/proizvod13.jpg"
                     alt="Aranžman 13"
                   />
                 </td>
@@ -352,7 +352,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod14.jpg"
+                    src="../images/prilike/proizvod14.jpg"
                     alt="Aranžman 14"
                   />
                 </td>
@@ -366,7 +366,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod15.jpg"
+                    src="../images/prilike/proizvod15.jpg"
                     alt="Aranžman 15"
                   />
                 </td>
@@ -380,7 +380,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod16.jpg"
+                    src="../images/prilike/proizvod16.jpg"
                     alt="Aranžman 16"
                   />
                 </td>
@@ -394,7 +394,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod17.jpg"
+                    src="../images/prilike/proizvod17.jpg"
                     alt="Aranžman 17"
                   />
                 </td>
@@ -408,7 +408,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod18.jpg"
+                    src="../images/prilike/proizvod18.jpg"
                     alt="Aranžman 18"
                   />
                 </td>
@@ -422,7 +422,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod19.jpg"
+                    src="../images/prilike/proizvod19.jpg"
                     alt="Aranžman 19"
                   />
                 </td>
@@ -436,7 +436,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod20.jpg"
+                    src="../images/prilike/proizvod20.jpg"
                     alt="Aranžman 20"
                   />
                 </td>
@@ -450,7 +450,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod21.jpg"
+                    src="../images/prilike/proizvod21.jpg"
                     alt="Aranžman 21"
                   />
                 </td>
@@ -464,7 +464,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod22.jpg"
+                    src="../images/prilike/proizvod22.jpg"
                     alt="Aranžman 22"
                   />
                 </td>
@@ -478,7 +478,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod23.jpg"
+                    src="../images/prilike/proizvod23.jpg"
                     alt="Aranžman 23"
                   />
                 </td>
@@ -492,7 +492,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod24.jpg"
+                    src="../images/prilike/proizvod24.jpg"
                     alt="Aranžman 24"
                   />
                 </td>
@@ -506,7 +506,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod25.jpg"
+                    src="../images/prilike/proizvod25.jpg"
                     alt="Aranžman 25"
                   />
                 </td>
@@ -520,7 +520,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod26.jpg"
+                    src="../images/prilike/proizvod26.jpg"
                     alt="Aranžman 26"
                   />
                 </td>
@@ -534,7 +534,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod27.jpg"
+                    src="../images/prilike/proizvod27.jpg"
                     alt="Aranžman 27"
                   />
                 </td>
@@ -548,7 +548,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod28.jpg"
+                    src="../images/prilike/proizvod28.jpg"
                     alt="Aranžman 28"
                   />
                 </td>
@@ -562,7 +562,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod29.jpg"
+                    src="../images/prilike/proizvod29.jpg"
                     alt="Aranžman 29"
                   />
                 </td>
@@ -576,7 +576,7 @@
                 <td>
                   <img
                     class="product-image"
-                    src="../Slike/prilike/proizvod30.jpg"
+                    src="../images/prilike/proizvod30.jpg"
                     alt="Aranžman 30"
                   />
                 </td>
@@ -588,37 +588,23 @@
               </tr>
             </tbody>
           </table>
-          <div id="sticky-order-form" class="order-form">
+          <div id="order-form">
             <h2>Forma za naručivanje</h2>
             <p>Popunite podatke kako biste izvršili porudžbinu</p>
-            <label for="name">Ime i prezime:</label>
-            <input type="text" id="name" name="name" required />
+            <label for="name">Ime i Prezime:</label>
+            <span id="name-error" class="error"></span>
+            <input type="text" id="name" name="name" />
 
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required />
+            <span id="email-error" class="error"></span>
+            <input type="text" id="email" name="email" />
 
-            <button type="submit">Naruči</button>
+            <input id="submit-btn" type="submit" value="Naruci"/>
           </div>
         </div>
       </form>
     </div>
   </body>
-  <script>
-    function redirectToThankYouPage() {
-      event.preventDefault();
-      setTimeout(function () {
-        window.location.href = "thank_you.html";
-      }, 100);
-    }
-  </script>
-  <script>
-    window.onscroll = function () {
-      var backButton = document.getElementById("backButton");
-      if (window.scrollY > 100) {
-        backButton.style.display = "none";
-      } else {
-        backButton.style.display = "block";
-      }
-    };
-  </script>
+  <script src="../scripts/back-button.js"></script>
+  <script src="../scripts/porudzbina-check.js"></script>
 </html>
