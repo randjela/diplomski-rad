@@ -3,16 +3,18 @@
     top: 10px;
     left: 10px;
     padding: 10px 20px;
-    background-color: #BC9CA9; 
-    color: white;
+    background-color: #99687c; 
+    color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     z-index: 1000; 
+    font-family: Arial, sans-serif;
+    font-size: 13px;
 }
 
 #back-button:hover {
-    background-color: #9a7b8e;
+    background-color: #875b6d;
 }
 
 #back-button #button-text {
@@ -39,11 +41,5 @@
         display: inline;
         font-size: 1.5rem;
         font-weight: bold;
-    }
-}
-
-@media (max-width: 320px) {
-    #gallery {
-        grid-template-columns: 1fr;
     }
 }

@@ -1,6 +1,5 @@
 html, body {
-    margin: 0;
-    padding: 0;
+    font-family: "Lora", serif;
     width: 100%;
     max-width: 100%;
     overflow-x: hidden;
@@ -13,7 +12,7 @@ header {
     font-style: oblique;
     font-size: 1.5em;
     text-align: center;
-    background-color: #BC9CA9;
+    background-color: #99687c;
     color: #fff;
     padding: 1.5em;
 }
@@ -21,8 +20,7 @@ header {
 p {
     font-size: 1.2em;
     text-align: center;
-    color:#715862;
-
+    color: #715862;
 }
 
 #gallery {
@@ -40,7 +38,7 @@ p {
     border: 1px solid #ddd;
     border-radius: 50px;
     background-color: #fff;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     overflow: hidden; 
     position: relative;
     transition: transform 0.2s ease-in-out;

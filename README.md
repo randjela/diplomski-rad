@@ -1,19 +1,35 @@
-# 🌸 Cvecara Bonsai 
+# 🌸 Cvećara Bonsai 
 
-Dobrodošli na veb stranicu cvećare "Bonsai", gde jednostavnost susreće lepotu. Naša virtuelna platforma nudi vam elegantnu prezentaciju naše cvećare, pružajući digitalno rešenje za kupovinu cvetnih aranžmana, buketa i pojedinačnog cveća za sve prilike, uključujući venčanja i druge svečanosti.
+Dobrodošli na veb stranicu cvećare "Bonsai", gde jednostavnost susreće lepotu. Naša virtuelna platforma nudi vam elegantnu prezentaciju naše cvećare, pružajući pregled ponude cvetnih aranžmana, buketa i pojedinačnog cveća za sve prilike, uključujući venčanja i druge svečanosti.
 
 ## 📁 Struktura projekta
 
 Projekat je organizovan hijerarhijom fascikli, koja omogućava lako snalaženje i efikasno upravljanje različitim tipovima datoteka:
 ```
-📦Cvecara 
+📦Cvećara 
 ┣ 📂css 
-┃ ┗ 📜styles.css 
-┣ 📂images
+┃ ┣ 📜back-button.css 
+┃ ┣ 📜dekoracija.css 
+┃ ┣ 📜gallery.css 
+┃ ┣ 📜normalize.css 
+┃ ┣ 📜porudzbina.css 
+┃ ┣ 📜style.css 
+┃ ┗ 📜thank_you.css 
+┣ 📂images 
+┃ ┣ 📂buketi 
+┃ ┣ 📂dekoracija 
+┃ ┗ 📂prilike 
 ┣ 📂pages 
-┃ ┗ 📜porudzbina.html 
-┣ 📜index.html 
-┗ 📜script.js
+┃ ┣ 📜aranzmani.html 
+┃ ┣ 📜buketi.html 
+┃ ┣ 📜dekoracija.html 
+┃ ┣ 📜porudzbina.html 
+┃ ┗ 📜thank_you.html 
+┣ 📂scripts 
+┃ ┣ 📜back-button.js 
+┃ ┣ 📜index-script.js 
+┃ ┗ 📜porudzbina-check.js 
+┗ 📜index.html
 ```
 
 ## 💻 Tehnologije 
@@ -24,13 +40,13 @@ Naša veb stranica je izgrađena korišćenjem tri ključne veb tehnologije, koj
 - **CSS:** Stilizuje HTML elemente tako da odgovara estetici našeg brenda.
 - **JavaScript (JS):** Dodaje interaktivnost određenim elementima na stranicama, poboljšavajući korisničko iskustvo.
 
-## 🎨 Izgled webstranice
+## 🎨 Izgled veb stranice
 
 **Glavna stranica (index.html):**
 
 Naša glavna stranica prikazuje širok izbor proizvoda, uključujući cvetne aranžmane, bukete i pojedinačno cveće, kroz atraktivan i pregledan izlog.
 
-**Stranica za narucivanje (porudzbina.html):**
+**Stranica za naručivanje (porudzbina.html):**
 
 Ova stranica pruža jednostavan korisnički interfejs koji omogućava klijentima da brzo i lako naruče željeni proizvod.
 
@@ -42,11 +58,11 @@ Unutar stranice je integrisana mapa koja prikazuje geografsku lokaciju naše cve
 
 Stranica sadrži interaktivni kontakt obrazac koji omogućava korisnicima da postavljaju upite ili šalju povratne informacije direktno sa veb stranice.
 
-## ⓘ Koriscenje 
+## ⓘ Korišćenje 
 
 Da biste pokrenuli projekat, otvorite datoteku index.html u bilo kom internet pretraživaču. 
 
 ## 🌐 Postavljena verzija 
 
-- [Cvecara "Bonsai"](https://cvecara-bonsai.netlify.app/)
+- [Cvećara "Bonsai"](https://cvecara-bonsai.netlify.app/)
 - [![Netlify Status](https://api.netlify.com/api/v1/badges/94372219-bd71-4892-9c38-393e3e61ea77/deploy-status)](https://app.netlify.com/sites/cvecara-bonsai/deploys)
