@@ -28,7 +28,8 @@ Projekat je organizovan hijerarhijom fascikli, koja omogućava lako snalaženje 
 ┣ 📂scripts 
 ┃ ┣ 📜back-button.js 
 ┃ ┣ 📜index-script.js 
-┃ ┗ 📜porudzbina-check.js 
+┃ ┗ 📜porudzbina-check.js
+┣ 📜404.html 
 ┗ 📜index.html
 ```
 
