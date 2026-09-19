@@ -2,6 +2,10 @@ body {
   font-family: "Lora", serif;
 }
 
+p {
+  font-family: "Source Sans 3", sans-serif;
+}
+
 h1 {
   text-align: center;
   color: #866a75;
@@ -32,6 +36,10 @@ th {
   color: #866a75;
 }
 
+td:nth-child(3) {
+  font-family: "Source Sans 3", sans-serif;
+}
+
 .product-image {
   width: 80px;
   height: 80px;
@@ -47,6 +55,7 @@ th {
 }
 
 input[type="number"] {
+  font-family: "Source Sans 3", sans-serif;
   width: 40px;
   padding: 4px;
   text-align: center;
@@ -66,6 +75,7 @@ input[type="number"] {
 }
 
 #order-form label {
+  font-family: "Source Sans 3", sans-serif;
   display: block;
   margin-bottom: 8px;
   font-weight: bold;
@@ -73,6 +83,7 @@ input[type="number"] {
 }
 
 #order-form input[type="text"] {
+  font-family: "Source Sans 3", sans-serif;
   width: 100%;
   padding: 8px;
   margin-bottom: 15px;
@@ -81,6 +92,7 @@ input[type="number"] {
 }
 
 #submit-btn {
+  font-family: "Lora", serif;
   background: linear-gradient(45deg, #866a75, rgb(109, 90, 97));
   color: #fff;
   padding: 10px 15px;
@@ -95,6 +107,7 @@ input[type="number"] {
 }
 
 .error {
+  font-family: "Source Sans 3", sans-serif;
   color: #f00;
   font-size: 0.875rem;
 }

@@ -4,6 +4,7 @@
   --accent-color: #68515a;
   --text-light: #ffffff;
   --font-primary: "Lora", serif;
+  --font-secondary: "Source Sans 3", sans-serif;
 }
 
 body {
@@ -21,6 +22,10 @@ html {
   padding: 0;
   font-family: var(--font-primary);
   overflow-x: hidden;
+}
+
+p {
+  font-family: var(--font-secondary);
 }
 
 #nav-image {
@@ -110,6 +115,7 @@ html {
 }
 
 #title-flowers {
+  font-family: var(--font-primary);
   font-size: 6.5rem;
   color: var(--primary-light);
   font-weight: bold;
@@ -117,6 +123,7 @@ html {
 }
 
 #subtitle-flowers {
+  font-family: var(--font-primary);
   font-size: 3rem;
   color: var(--primary-light);
   margin-top: 0;
@@ -216,7 +223,6 @@ html {
 }
 
 #information p {
-  font-family: var(--font-primary);
   font-weight: normal;
   font-size: 1.2rem;
   margin-bottom: 5%;
@@ -269,6 +275,7 @@ h1 {
 }
 
 .image-description p {
+  font-family: var(--font-primary);
   margin: 10px 0;
   font-weight: bold;
   background-color: #f2eded;
@@ -491,6 +498,7 @@ label {
 label,
 input,
 textarea {
+  font-family: var(--font-secondary);
   display: block;
   margin-bottom: 10px;
 }
@@ -519,6 +527,7 @@ textarea {
 }
 
 input[type="submit"] {
+  font-family: var(--font-primary);
   background-color: var(--accent-color);
   color: #fff;
   border: none;
@@ -858,6 +867,7 @@ footer {
 
 
 .error {
+  font-family: var(--font-secondary);
   color: #f00;
   font-size: 0.875rem;
 }

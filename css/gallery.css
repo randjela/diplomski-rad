@@ -42,6 +42,7 @@ html, body {
 }
 
 .product p {
+  font-family: "Source Sans 3", sans-serif;
   font-weight: bold;
   color: #f00;
 }
